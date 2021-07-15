@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Password Strength Indicator</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<header>
+	
+		<div class="container">
+			<h2>Password Strength Indicator</h2>
+			
+			<div class="input">
+				<input type="password" id="val" placeholder="Password">
+					<div id="eye">
+						<i class="fas fa-eye"></i>
+					</div>
+			</div>
+			<div id="lines">
+				<div class="emp"><span id="weak"></span></div>
+				<div class="emp"><span id="medium"></span></div>
+				<div class="emp"><span id="strong"></span></div>
+				<p id="status"></p>
+			</div>
+		</div>
+	</header>
+	<script src="app.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
