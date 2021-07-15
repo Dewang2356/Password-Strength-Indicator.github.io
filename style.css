@@ -102,3 +102,8 @@ input:focus{
 .input{
 	position: relative;
 }
+@media (max-width: 409px){
+	.emp{
+		width: 77px;
+	}
+}
